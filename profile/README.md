@@ -13,7 +13,7 @@
 
 ## 🏛️ Layihə Haqqında (About Kripto-Kurs)
 
-**Kripto-Kurs** müasir riyazi kriptoqrafiya, kibertəhlükəsizlik protokolları, paylanmış reyestr texnologiyaları (blokçeyn) və post-kvant dayanıqlı təhlükəsizlik mexanizmlərini dərindən tədris etmək üçün hazırlanmış genişmiqyaslı açıq təhsil resursudur (Open Educational Resource - OER).
+**Kripto-Kurs** müasir riyazi kriptoqrafiya, kibertəhlükəsizlik protokolları, paylanmış reyestr texnologiyaları (blokçeyn) və post-kvant dayanıqlı təhlükəsizlik mexanizmlərini dərindən tədris etmək üçün hazırlanmış genişmiqyaslı açıq təhsil resursudur (*Open Educational Resource - OER*).
 
 Kurs riyazi dəqiqliklə proqramlaşdırma təcrübəsini birləşdirir: hər bir alqoritm həm nəzəri riyazi aparat (qrup, meydan, modulyar arifmetika, elliptik əyrilər), həm də tətbiqi nümunələrlə izah olunur.
 
@@ -25,14 +25,26 @@ Bu ekosistem modulların rahat idarə olunması və avtonom inkişafı üçün i
 
 | Repozitoriya | Növü | Təsvir və Məqsəd |
 | :--- | :--- | :--- |
-| 🌐 **[Kripto-Kurs.github.io](https://github.com/Kripto-Kurs/Kripto-Kurs.github.io)** |  /  | **Canlı İnteraktiv SPA Veb Tətbiqi**: PWA (Progressive Web App) arxitekturası, MathJax riyazi düstur mühərriki, offline keşləmə və dinamik mühazirə naviqasiyası. |
-| 📚 **[Kripto-Kurs](https://github.com/Kripto-Kurs/Kripto-Kurs)** |  /  | **Əsas Kurs Mənbələri və Bilik Bazası**: 30 akademik mühazirə, 4 fundamental riyazi əlavə, LaTeX/Pandoc mənbələri, Obsidian Vault və LLM üçün strukturlaşdırılmış bilik şəbəkəsi. |
+| 🌐 **[Kripto-Kurs.github.io](https://github.com/Kripto-Kurs/Kripto-Kurs.github.io)** | `Public` / `Pages` | **Canlı İnteraktiv SPA Veb Tətbiqi**: PWA (Progressive Web App) arxitekturası, MathJax riyazi düstur mühərriki, offline keşləmə və dinamik mühazirə naviqasiyası. |
+| 📚 **[Kripto-Kurs](https://github.com/Kripto-Kurs/Kripto-Kurs)** | `Core` / `Sources` | **Əsas Kurs Mənbələri və Bilik Bazası**: 30 akademik mühazirə, 4 fundamental riyazi əlavə, LaTeX/Pandoc mənbələri, Obsidian Vault və LLM üçün strukturlaşdırılmış bilik şəbəkəsi. |
 
 ---
 
 ## 📖 Kursun Əsas Mövzu Strukturu
 
-
+```
+Kripto-Kurs Modulları
+├── 01. Klassik Kriptoqrafiya və Tarixi Şifrlər (Sezar, Vigenère, Əvəzləmə)
+├── 02. Müasir Simmetrik Blok və Axın Şifrləri (DES, 3DES, AES, ChaCha20, Modlar: CBC, CTR, GCM)
+├── 03. Ədədlər Nəzəriyyəsi və Riyazi Bünövrə (Evklid, Eyler, Fermat, Modulyar Arifmetika)
+├── 04. Asimmetrik (Açıq Açarlı) Şifrləmə (RSA, Diffie-Hellman, ElGamal)
+├── 05. Elliptik Əyrilər Kriptoqrafiyası (ECC, ECDH, Ed25519)
+├── 06. Rəqəmsal İmza və Açar Mübadiləsi (DSA, ECDSA, Schnorr)
+├── 07. Kriptoqrafik Heş Funksiyaları və MAC (SHA-2, SHA-3, HMAC, Keccak)
+├── 08. Sıfır Məlumat İsbatları (Zero-Knowledge Proofs — ZKP, zk-SNARKs, zk-STARKs)
+├── 09. Post-Kvant Kriptoqrafiya (PQC — Lattice-based, Kyber, Dilithium)
+└── 10. Blokçeyn Texnologiyası və Konsensus (Bitcoin, Ethereum, PoW, PoS, Ağıllı Müqavilələr)
+```
 
 ---
 
