@@ -1,2 +1,3 @@
 # .github
-Kripto-Kurs təşkilatının ümumi profil konfiqurasiyası və icmalı
+
+Kripto-Kurs təşkilatının profil konfiqurasiyası və icmalı.
